@@ -166,3 +166,27 @@ $("#cin").keyup(function () {
     $("#CIN_error").text("");
   }
 });
+
+$("#add_patient_btn").click(() => {
+  if (
+    $("#cin").val() == "" ||
+    $("#email").val() == "" ||
+    $("#phone").val() == "" ||
+    $("#firstName").val() == "" ||
+    $("#lastName").val() == ""
+  ) {
+    alert("Please fill all the inputs fields");
+    window.location.href = "../views/chart.html";
+  } else if (
+    $("#CIN_error").text() !== "" ||
+    $("#phone_error").text() !== ""||
+    $("#email_error").text() !== "" ||
+    $("#lastName_error").text() !== "" ||
+    $("#firstName_error").text() !== ""
+  ) {
+    alert("Please fill all the inputs fields correctly");
+    window.location.href = "../views/chart.html";
+  }else{
+     //all is good 
+  }
+});
