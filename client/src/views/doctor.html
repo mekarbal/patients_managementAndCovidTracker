@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>doctor</title>
+    <link rel="stylesheet" href="../style/main-style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="doctor.html">CORONA</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home </a>
+          </li>
+        </ul>
+
+          <button class="btn btn-primary" id="responsive_logout" type="submit">
+           <a href="index.html" class="text-white"> LOG OUT</a>
+          </button>
+        </form>
+      </div>
+    </nav>
+    <br />
+    <h1 id="title">DOCTORS LIST</h1>
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary ml-3" data-toggle="modal" data-target=".bd-example-modal-lg"> Add Doctor</button>
+
+<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-dark text-white p-3 adding__form">
+      <h4 class="text-center">Add new doctor</h4>
+      <hr style="width: 100%; background-color: white;">
+      
+      <form>
+        <div class="col-md-12">
+          <label class="form-label">First Name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="fname"
+            name="fname"
+            placeholder="Enter first name"
+          />
+          <div class="form-text text-warning">
+            <p  id="fname_error">*required</p>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <label class="form-label">Last Name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="lname"
+            name="lname"
+            placeholder="Enter last name"
+          />
+          <div class="form-text text-warning">
+            <p id="lname_error">*required</p>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <label class="form-label">Email</label>
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            name="email"
+            placeholder="Enter email address"
+          />
+          <div class="form-text text-warning">
+            <p id="email_error">example@gmail.com</p>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <label class="form-label">Password</label>
+          <input
+            type="password"
+            class="form-control"
+            id="password"
+            name="password"
+            placeholder="Enter password"
+          />
+          <div class="form-text text-warning">
+            <p id="password_error">must include degits , sympols and lowercase/uppercase characters</p>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <label class="form-label">Phone number</label>
+          <input
+            type="text"
+            class="form-control"
+            id="phone"
+            name="phone"
+            placeholder="Enter phone number"
+            maxlength="13"
+          />
+          <div class="form-text text-warning">
+            <p id="phone_error">+212XXXXXXXXX</p>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <label class="form-label">CIN</label>
+          <input
+            type="text"
+            class="form-control"
+            id="CIN"
+            name="CIN"
+            placeholder="Enter CIN"
+            maxlength="8"
+          />
+          <div class="form-text text-warning">
+            <p id="CIN_error">Y000000/RT000000</p>
+          </div>
+        </div>
+    
+      <div class="blank_div"></div>
+      <input type="submit" class="btn btn-primary btn-block " id="add_btn"  value=" Add "/> 
+      </form>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade bd-example1-modal-lg" id="model" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-dark text-white p-3 adding__form">
+      <h4 class="text-center">Update doctor information</h4>
+      <hr style="width: 100%; background-color: white;">
+      <form>
+        <div class="col-md-12">
+          <label class="form-label">First Name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="fname_update"
+            name="fname"
+            placeholder="Enter first name"
+            required
+          />
+          <div id="fname_error_update" class="form-text text-danger"></div>
+        </div>
+        <div class="col-md-12">
+          <label class="form-label">Last Name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="lname_update"
+            name="lname"
+            placeholder="Enter last name"
+            required
+          />
+          <div id="lname_error_update" class="form-text text-danger"></div>
+        </div>
+        <div class="col-md-12">
+          <label class="form-label">Email</label>
+          <input
+            type="email"
+            class="form-control"
+            id="email_update"
+            name="email"
+            placeholder="Enter email address"
+            required
+          />
+          <div id="email_error_update" class="form-text text-danger"></div>
+        </div>
+        <div class="col-md-12">
+          <label class="form-label">Password</label>
+          <input
+            type="password"
+            class="form-control"
+            id="password_update"
+            name="password"
+            placeholder="Enter password"
+            required
+          />
+          <div id="password_error_update" class="form-text text-danger"></div>
+        </div>
+        <div class="col-md-12">
+          <label class="form-label">Phone number</label>
+          <input
+            type="text"
+            class="form-control"
+            id="phone_update"
+            name="phone"
+            placeholder="Enter phone number"
+            required
+          />
+          <div id="phone_error_update" class="form-text text-danger"></div>
+        </div>
+        <div class="col-md-12">
+          <label class="form-label">CIN</label>
+          <input
+            type="text"
+            class="form-control"
+            id="CIN_update"
+            name="CIN"
+            placeholder="Enter CIN"
+            required
+          />
+          <div id="CIN_error_update" class="form-text text-danger"></div>
+        </div>
+    
+      <div class="blank_div"></div>
+      <input type="submit" class="btn btn-success btn-block " id="edit_post"  value=" Update"/> 
+      </form>
+    </div>
+  </div>
+</div>
+
+
+    <div id="container"></div>
+    <div class="blank_div"></div>
+
+
+    <script>
+      if (typeof module === "object") {
+        window.module = module;
+        module = undefined;
+      }
+    </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="../script/forms_validation.js"></script>
+    <script>
+      if (window.module) module = window.module;
+    </script>
+
+    
+    <script src="../script/doctor.js"></script>
+    
+  </body>
+</html>

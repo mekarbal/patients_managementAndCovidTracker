@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../style/main-style.css" />
+    <title>login</title>
+  </head>
+  <body>
+    <div class="row">
+      <div class="col-md-6 image_conatiner" >
+        <img
+          src="https://static.wixstatic.com/media/0cca40_0035eae5984c43f792d2cd78c0aa428d~mv2.gif"
+          alt=""
+        />
+      </div>
+      <div class="col-md-5 m-auto">
+        <div class="mb-3">
+          <label class="form-label">Email</label>
+          <input
+            type="email"
+            class="form-control"
+            id="username"
+            placeholder="Enter user Name"
+          />
+          <div id="email_error" class="form-text text-danger">*required</div>
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Password</label>
+          <input
+            type="password"
+            class="form-control"
+            id="password"
+            placeholder="Enter Password "
+          />
+          <div id="password_error" class="form-text text-danger">*required</div>
+        </div>
+        <button
+          type="submit"
+          class="btn btn-primary btn-block"
+          id="login_btn"
+          onclick="fetchData()"
+        >
+          Login
+        </button>
+        <br />
+        <p><a href="index.html" class="text-dark">Go Back</a></p>
+      </div>
+    </div>
+    <script src="../script/doctor_login.js"></script>
+  </body>
+</html>

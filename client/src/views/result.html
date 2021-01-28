@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+        <link rel="stylesheet" href="../style/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="chart.html">CORONA</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home </a>
+                </li>
+            </ul>
+            <button class="btn btn-primary" id="responsive_logout" type="submit">
+        <a href="index.html" class="text-white"> LOG OUT</a>
+      </button>
+            </form>
+        </div>
+    </nav>
+    <br>
+
+    <div class="result_div_wrapper">
+        <form action="" method="post">
+            <div class="m-auto">
+                <div class="checkbox">
+                    <input name="cin" type="text" id="cin" placeholder="Search for a patient by  CIN"
+                    style="width: 82%;padding: 1%;">
+                    <button class="btn btn-primary" id="cinSearch" onclick="getPatientInfo(event)">search</button>
+                </div>
+            </div>
+            <br>
+        </form>
+        <div id="display">
+            
+        </div>
+        <h4><div id="result" class="empty"></div></h4>
+        <div id="qu" class="empty">
+   
+        </div>
+        <br>
+        <select name="" id="select" class="empty">
+            <option value="positif">positif</option>
+            <option value="negatif">negatif</option>
+        </select>
+        <button class="btn btn-danger " id="sendMail" onclick="send(event)">send mail</button>
+        <button class="btn btn-primary empty" id="pdf" onclick="pdfExport(event)">export pdf</button>
+        <div id="btn"></div>
+        <br>
+        <div id="message"></div>
+        <button class="btn btn-primary empty" id="saveResult" onclick="saveResult(event)">save</button>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="../script/patient.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style/style.css" />
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <title>COVID-19 STATS - JAVASCRIPT</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="chart.html">CORONA</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home </a>
+                </li>
+            </ul>
+
+            <button class="btn btn-primary" id="responsive_logout" type="submit">
+        <a href="index.html" class="text-white"> LOG OUT</a>
+      </button>
+            </form>
+        </div>
+    </nav>
+    <br>
+
+    <div class="big_wrapper">
+        <div class="stats">
+            <div class="latest-report">
+                <div class="country">
+                    <div class="name">Loading...</div>
+                    <div class="change-country">change</div>
+                    <div class="search-country hide">
+                        <div class="" style="margin-bottom: 5px;">
+                            <input type="date" id="start_date" />
+                            <input type="date" id="end_date" />
+                        </div>
+                        <div class="search-box">
+                            <input type="text" id="search-input" placeholder="Search Country..." />
+                            <img class="close" src="../images/close.svg" alt="" />
+                        </div>
+                        <div class="country-list"></div>
+                    </div>
+                </div>
+                <div class="total-cases">
+                    <div class="title">Total Cases</div>
+                    <div class="value">0</div>
+                    <div class="new-value">+0</div>
+                </div>
+                <div class="recovered">
+                    <div class="title">Recovered</div>
+                    <div class="value">0</div>
+                    <div class="new-value">+0</div>
+                </div>
+                <div class="deaths">
+                    <div class="title">Deaths</div>
+                    <div class="value">0</div>
+                    <div class="new-value">+0</div>
+                </div>
+            </div>
+            <div class="chart">
+                <canvas id="axes_line_chart"></canvas>
+            </div>
+        </div>
+        <br />
+        <div id="map"></div>
+    </div>
+    
+
+    <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary ml-4 mt-3" data-toggle="modal" data-target=".bd-example-modal-lg"> Add Patient</button>
+<button class="btn btn-success ml-4 mt-3"><a class="text-white" href="result.html">show reslut</a></button>
+<div style="height: 12px;"></div>
+<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-dark text-white p-3 adding__form">
+      <h4 class="text-center">Add new patient</h4>
+      <hr style="width: 100%; background-color: white;">
+      
+      <form>
+        <div class="col-md-12">
+          <label class="form-label">First Name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="firstName"
+            name="firstName"
+            placeholder="Enter first name"
+          />
+          <div class="form-text text-warning">
+            <p  id="firstName_error">*required</p>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <label class="form-label">Last Name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="lastName"
+            name="lastName"
+            placeholder="Enter last name"
+          />
+          <div class="form-text text-warning">
+            <p id="lastName_error">*required</p>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <label class="form-label">Email</label>
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            name="email"
+            placeholder="Enter email address"
+          />
+          <div class="form-text text-warning">
+            <p id="email_error">example@gmail.com</p>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <label class="form-label">Phone number</label>
+          <input
+            type="text"
+            class="form-control"
+            id="phone"
+            name="phone"
+            placeholder="Enter phone number"
+            maxlength="13"
+          />
+          <div class="form-text text-warning">
+            <p id="phone_error">+212XXXXXXXXX</p>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <label class="form-label">CIN</label>
+          <input
+            type="text"
+            class="form-control"
+            id="cin"
+            name="cin"
+            placeholder="Enter CIN"
+            maxlength="8"
+          />
+          <div class="form-text text-warning">
+            <p id="CIN_error">Y000000/RT000000</p>
+          </div>
+        </div>
+    
+      <div class="blank_div"></div>
+      <input type="submit" class="btn btn-primary btn-block "  id="add_patient_btn"  value=" Add "  onclick="reload(event)"/> 
+      
+      </form>
+    </div>
+  </div>
+</div>
+
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js" integrity="sha256-R4pqcOYV8lt7snxMQO/HSbVCFRPMdrhAFMH+vr9giYI=" crossorigin="anonymous"></script>
+    <script language="JavaScript" src="http://www.geoplugin.net/javascript.gp" type="text/javascript"></script>
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.js"></script>
+    <script>
+        mapboxgl.accessToken =
+            "pk.eyJ1IjoibWVrYXJiYWwiLCJhIjoiY2trMzA0aXp0MTZrcjJwcnJlMDQzcHRmNSJ9.N5pXLuh5FM1Hun8uKjPVhg";
+        var map = new mapboxgl.Map({
+            container: "map",
+            style: "mapbox://styles/mapbox/dark-v10",
+            zoom: 1,
+            center: [0, 20],
+        });
+    </script>
+    <script>
+        if (typeof module === "object") {
+            window.module = module;
+            module = undefined;
+        }
+    </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <script>
+        if (window.module) module = window.module;
+    </script>
+    <script src="../script/patient.js"></script>
+    <script src="../script/countries.js"></script>
+    <script src="../script/app.js"></script>
+    <script src="../script/forms_validation.js"></script>
+
+</body>
+
+</html>

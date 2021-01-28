@@ -1,0 +1,194 @@
+{"message":"hello, Karbal","level":["info"],"Date":"27/1/2021 11:27:59","http":"127.0.0.1:3000/Home"}
+{"message":{"errors":{"firstName":{"name":"ValidatorError","message":"Path `firstName` is required.","properties":{"message":"Path `firstName` is required.","type":"required","path":"firstName","value":""},"kind":"required","path":"firstName","value":""},"lastName":{"name":"ValidatorError","message":"Path `lastName` is required.","properties":{"message":"Path `lastName` is required.","type":"required","path":"lastName","value":""},"kind":"required","path":"lastName","value":""},"cin":{"name":"ValidatorError","message":"Path `cin` is required.","properties":{"message":"Path `cin` is required.","type":"required","path":"cin","value":""},"kind":"required","path":"cin","value":""},"email":{"name":"ValidatorError","message":"Path `email` is required.","properties":{"message":"Path `email` is required.","type":"required","path":"email","value":""},"kind":"required","path":"email","value":""},"phone":{"name":"ValidatorError","message":"Path `phone` is required.","properties":{"message":"Path `phone` is required.","type":"required","path":"phone","value":""},"kind":"required","path":"phone","value":""}},"_message":"Patient validation failed","message":"Patient validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required., cin: Path `cin` is required., email: Path `email` is required., phone: Path `phone` is required."},"level":["error"],"Date":"27/1/2021 11:35:9","http":"127.0.0.1:3000/add"}
+{"message":"get last id","level":["info"],"Date":"27/1/2021 11:35:9","http":"127.0.0.1:3000/lastid"}
+{"message":"New file created with patient id=  60113a30cd9354702c7fdb02","level":["info"],"Date":"27/1/2021 11:35:9","http":"127.0.0.1:3000/id"}
+{"message":"search with patient cin","level":["info"],"Date":"27/1/2021 14:33:30","http":"127.0.0.1:3000/test/azer"}
+{"message":"update result","level":["info"],"Date":"27/1/2021 14:33:30","http":"127.0.0.1:3000/addresult"}
+{"message":"search with patient cin","level":["info"],"Date":"27/1/2021 14:33:30","http":"127.0.0.1:3000/test/azer"}
+{"message":"update result","level":["info"],"Date":"27/1/2021 14:33:30","http":"127.0.0.1:3000/addresult"}
+{"message":"search with patient cin","level":["info"],"Date":"27/1/2021 14:33:30","http":"127.0.0.1:3000/test/azer"}
+{"message":"search with patient cin","level":["info"],"Date":"27/1/2021 14:33:30","http":"127.0.0.1:3000/test/azer"}
+{"message":"search with patient cin","level":["info"],"Date":"27/1/2021 14:42:57","http":"127.0.0.1:3000/test/azer"}
+{"message":"search with patient cin","level":["info"],"Date":"27/1/2021 14:52:22","http":"127.0.0.1:3000/test/azer"}
+{"message":"search with patient cin","level":["info"],"Date":"27/1/2021 14:54:51","http":"127.0.0.1:3000/test/azer"}
+{"message":"search with patient cin","level":["info"],"Date":"27/1/2021 14:55:57","http":"127.0.0.1:3000/test/azer"}
+{"message":"Pdf created successfully","level":["info"],"Date":"27/1/2021 14:56:48","http":"127.0.0.1:3000/addresult"}
+{"message":"Pdf created successfully","level":["info"],"Date":"27/1/2021 14:57:37","http":"127.0.0.1:3000/addresult"}
+{"message":"search with patient cin","level":["info"],"Date":"27/1/2021 15:0:25","http":"127.0.0.1:3000/test/azer"}
+{"message":"Pdf created successfully","level":["info"],"Date":"27/1/2021 15:0:25","http":"127.0.0.1:3000/addresult"}
+{"message":"search with patient cin","level":["info"],"Date":"27/1/2021 15:1:31","http":"127.0.0.1:3000/test/azer"}
+{"message":"Pdf created successfully","level":["info"],"Date":"27/1/2021 15:1:31","http":"127.0.0.1:3000/addresult"}
+{"message":"search with patient cin","level":["info"],"Date":"27/1/2021 15:1:31","http":"127.0.0.1:3000/test/azer"}
+{"message":"Pdf created successfully","level":["info"],"Date":"27/1/2021 15:1:31","http":"127.0.0.1:3000/addresult"}
+{"message":"Pdf created successfully","level":["info"],"Date":"27/1/2021 15:1:31","http":"127.0.0.1:3000/addresult"}
+{"message":"search with patient cin","level":["info"],"Date":"27/1/2021 15:11:31","http":"127.0.0.1:3000/test/azer"}
+{"message":"search with patient cin","level":["info"],"Date":"27/1/2021 15:11:31","http":"127.0.0.1:3000/test/azer"}
+{"message":"search with patient cin","level":["info"],"Date":"27/1/2021 15:42:0","http":"127.0.0.1:3000/test/azer"}
+{"message":"search with patient cin","level":["info"],"Date":"27/1/2021 15:43:24","http":"127.0.0.1:3000/test/azer"}
+{"message":"send Mail successfully","level":["info"],"Date":"27/1/2021 15:43:24","http":"127.0.0.1:3000/sendmail"}
+{"message":"send Mail successfully","level":["info"],"Date":"27/1/2021 15:43:24","http":"127.0.0.1:3000/sendmail"}
+{"message":"update result","level":["info"],"Date":"27/1/2021 15:43:24","http":"127.0.0.1:3000/addresult"}
+{"message":"search with patient cin","level":["info"],"Date":"27/1/2021 15:43:24","http":"127.0.0.1:3000/test/azer"}
+{"message":{"errors":{"firstName":{"name":"ValidatorError","message":"Path `firstName` is required.","properties":{"message":"Path `firstName` is required.","type":"required","path":"firstName","value":""},"kind":"required","path":"firstName","value":""},"lastName":{"name":"ValidatorError","message":"Path `lastName` is required.","properties":{"message":"Path `lastName` is required.","type":"required","path":"lastName","value":""},"kind":"required","path":"lastName","value":""},"cin":{"name":"ValidatorError","message":"Path `cin` is required.","properties":{"message":"Path `cin` is required.","type":"required","path":"cin","value":""},"kind":"required","path":"cin","value":""},"email":{"name":"ValidatorError","message":"Path `email` is required.","properties":{"message":"Path `email` is required.","type":"required","path":"email","value":""},"kind":"required","path":"email","value":""},"phone":{"name":"ValidatorError","message":"Path `phone` is required.","properties":{"message":"Path `phone` is required.","type":"required","path":"phone","value":""},"kind":"required","path":"phone","value":""}},"_message":"Patient validation failed","message":"Patient validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required., cin: Path `cin` is required., email: Path `email` is required., phone: Path `phone` is required."},"level":["error"],"Date":"27/1/2021 16:10:48","http":"127.0.0.1:3000/add"}
+{"message":"get last id","level":["info"],"Date":"27/1/2021 16:10:48","http":"127.0.0.1:3000/lastid"}
+{"message":"update file of 601141ecb27abc04f861e700","level":["info"],"Date":"27/1/2021 16:10:48","http":"127.0.0.1:3000/id"}
+{"message":"search with patient cin","level":["info"],"Date":"27/1/2021 16:10:48","http":"127.0.0.1:3000/test/azer"}
+{"message":{"errors":{"firstName":{"name":"ValidatorError","message":"Path `firstName` is required.","properties":{"message":"Path `firstName` is required.","type":"required","path":"firstName","value":""},"kind":"required","path":"firstName","value":""},"lastName":{"name":"ValidatorError","message":"Path `lastName` is required.","properties":{"message":"Path `lastName` is required.","type":"required","path":"lastName","value":""},"kind":"required","path":"lastName","value":""},"cin":{"name":"ValidatorError","message":"Path `cin` is required.","properties":{"message":"Path `cin` is required.","type":"required","path":"cin","value":""},"kind":"required","path":"cin","value":""},"email":{"name":"ValidatorError","message":"Path `email` is required.","properties":{"message":"Path `email` is required.","type":"required","path":"email","value":""},"kind":"required","path":"email","value":""},"phone":{"name":"ValidatorError","message":"Path `phone` is required.","properties":{"message":"Path `phone` is required.","type":"required","path":"phone","value":""},"kind":"required","path":"phone","value":""}},"_message":"Patient validation failed","message":"Patient validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required., cin: Path `cin` is required., email: Path `email` is required., phone: Path `phone` is required."},"level":["error"],"Date":"27/1/2021 16:10:48","http":"127.0.0.1:3000/add"}
+{"message":"get last id","level":["info"],"Date":"27/1/2021 16:10:48","http":"127.0.0.1:3000/lastid"}
+{"message":"update file of 601141ecb27abc04f861e700","level":["info"],"Date":"27/1/2021 16:10:48","http":"127.0.0.1:3000/id"}
+{"message":"search with patient cin","level":["info"],"Date":"27/1/2021 16:10:48","http":"127.0.0.1:3000/test/azer"}
+{"message":"update result","level":["info"],"Date":"27/1/2021 16:10:48","http":"127.0.0.1:3000/addresult"}
+{"message":"search with patient cin","level":["info"],"Date":"27/1/2021 16:10:48","http":"127.0.0.1:3000/test/azer"}
+{"message":"search with patient cin","level":["info"],"Date":"27/1/2021 16:10:48","http":"127.0.0.1:3000/test/azer"}
+{"message":"search with patient cin","level":["info"],"Date":"27/1/2021 16:10:48","http":"127.0.0.1:3000/test/azer"}
+{"message":"Pdf created successfully","level":["info"],"Date":"27/1/2021 16:10:48","http":"127.0.0.1:3000/addresult"}
+{"message":"Pdf created successfully","level":["info"],"Date":"27/1/2021 16:10:48","http":"127.0.0.1:3000/addresult"}
+{"message":"search with patient cin","level":["info"],"Date":"27/1/2021 16:10:48","http":"127.0.0.1:3000/test/azer"}
+{"message":"Pdf created successfully","level":["info"],"Date":"27/1/2021 16:10:48","http":"127.0.0.1:3000/addresult"}
+{"message":"send Mail successfully","level":["info"],"Date":"27/1/2021 19:1:3","http":"127.0.0.1:3000/sendmail"}
+{"message":"send Mail successfully","level":["info"],"Date":"27/1/2021 19:2:31","http":"127.0.0.1:3000/sendmail"}
+{"message":"send Mail successfully","level":["info"],"Date":"27/1/2021 19:3:33","http":"127.0.0.1:3000/sendmail"}
+{"message":"last Created","level":["info"],"Date":"28/1/2021 14:17:3","http":"127.0.0.1:3000/add"}
+{"message":"get last id","level":["info"],"Date":"28/1/2021 14:17:3","http":"127.0.0.1:3000/lastid"}
+{"message":"New file created with patient id=  6012baa2e333af21902777bd","level":["info"],"Date":"28/1/2021 14:17:3","http":"127.0.0.1:3000/id"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:17:3","http":"127.0.0.1:3000/test/HH123454"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:17:3","http":"127.0.0.1:3000/test/HH123454"}
+{"message":"update result","level":["info"],"Date":"28/1/2021 14:17:3","http":"127.0.0.1:3000/addresult"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:17:3","http":"127.0.0.1:3000/test/HH123454"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:17:3","http":"127.0.0.1:3000/test/HH123454"}
+{"message":"update result","level":["info"],"Date":"28/1/2021 14:17:3","http":"127.0.0.1:3000/addresult"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:17:3","http":"127.0.0.1:3000/test/HH123454"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:17:3","http":"127.0.0.1:3000/test/HH12345"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:17:3","http":"127.0.0.1:3000/test/DGF"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:17:3","http":"127.0.0.1:3000/test/HH123454"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:17:3","http":"127.0.0.1:3000/test/HH123456"}
+{"message":"update result","level":["info"],"Date":"28/1/2021 14:17:3","http":"127.0.0.1:3000/addresult"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:17:3","http":"127.0.0.1:3000/test/HH123456"}
+{"message":"update result","level":["info"],"Date":"28/1/2021 14:17:3","http":"127.0.0.1:3000/addresult"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:17:3","http":"127.0.0.1:3000/test/HH123456"}
+{"message":"update result","level":["info"],"Date":"28/1/2021 14:17:3","http":"127.0.0.1:3000/addresult"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:17:3","http":"127.0.0.1:3000/test/HH123456"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:17:3","http":"127.0.0.1:3000/test/HH123456"}
+{"message":"update result","level":["info"],"Date":"28/1/2021 14:17:3","http":"127.0.0.1:3000/addresult"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:17:3","http":"127.0.0.1:3000/test/HH123456"}
+{"message":"update result","level":["info"],"Date":"28/1/2021 14:17:3","http":"127.0.0.1:3000/addresult"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:17:3","http":"127.0.0.1:3000/test/HH123456"}
+{"message":"Pdf created successfully","level":["info"],"Date":"28/1/2021 14:17:3","http":"127.0.0.1:3000/addresult"}
+{"message":"nameeee1 Created","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/add"}
+{"message":"get last id","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/lastid"}
+{"message":"New file created with patient id=  6012c449c9b7684a4ce90e06","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/id"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH345678"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH345678"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/H345678"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH345678"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH345678"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH345678"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH345678"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH12345"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH123456"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH12345"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH123456"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH123456"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH345678"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH3456785"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH123456"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH1234566"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH123456"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH1234566"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH123456"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH1234566"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH123456"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH1234566"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH123456"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH1234566"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH123456"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH1234566"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH123456"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH12345"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH123456"}
+{"message":"update result","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/addresult"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH123456"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH123456"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH1234567"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH123456"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH123456"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH123456"}
+{"message":"update result","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/addresult"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH123456"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH123456"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH123456"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH123456"}
+{"message":"update result","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/addresult"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH123456"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH123456"}
+{"message":"update result","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/addresult"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH123456"}
+{"message":"update result","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/addresult"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH123456"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH345678"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH123456"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH345678"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH123456"}
+{"message":"update result","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/addresult"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH123456"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH1234567"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH123456"}
+{"message":"update result","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/addresult"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH123456"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH1234566"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH123456"}
+{"message":"update result","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/addresult"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH123456"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH1234566"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH345678"}
+{"message":"update result","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/addresult"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH345678"}
+{"message":"update result","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/addresult"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH345678"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH345678"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH345678"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH345678"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH34567"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH345678"}
+{"message":"update result","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/addresult"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH345678"}
+{"message":"update result","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/addresult"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH345678"}
+{"message":"update result","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/addresult"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH345678"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH345678"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/H345678"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH345678"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH123456"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH123456"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH123456"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH1234566"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH123456"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH123456"}
+{"message":"update result","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/addresult"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH123456"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH1234566"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH123456"}
+{"message":"update result","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/addresult"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH123456"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH1234566"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH123456"}
+{"message":"update result","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/addresult"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH123456"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH1234566"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH123456"}
+{"message":"Pdf created successfully","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/addresult"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH123456"}
+{"message":"Pdf created successfully","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/addresult"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH123456"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH1234566"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH123456"}
+{"message":"update result","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/addresult"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH123456"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH1234566"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH123456"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH345678"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH123456"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH345678"}
+{"message":"Pdf created successfully","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/addresult"}
+{"message":"send Mail successfully","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/sendmail"}

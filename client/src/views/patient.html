@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>patient</title>
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="chart.html">CORONA</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home </a>
+                </li>
+            </ul>
+
+            <button class="btn btn-primary" id="responsive_logout" type="submit">
+        <a href="index.html" class="text-white"> LOG OUT</a>
+      </button>
+            </form>
+        </div>
+    </nav>
+    <br>
+    <div class="div_wrapper">
+        <form action="" method="post">
+            <h3>CIN de patient : <input type="text" id="localCin"  name="cin" readonly></h3>
+            <div class="col-sm-6">
+                <div class="checkbox">
+                    <label><input name="checkData" type="checkbox" id="aa" value="Fièvre (température mesurée >38°)">Fièvre
+                        (température mesurée >38°)</label>
+                    <input type="hidden" id="localId" name="id">
+                </div>
+                <div class="checkbox">
+                    <label><input name="checkData" type="checkbox" id="aa" value="Toux sèche">Toux sèche</label>
+                </div>
+                <div class="checkbox">
+                    <label><input name="checkData" type="checkbox" id="aa" value="Difficultés à respirer">Difficultés à
+                        respirer</label>
+                </div>
+                <div class="checkbox">
+                    <label><input name="checkData" type="checkbox" id="aa" value="Maux de gorge">Maux de gorge</label>
+                </div>
+                <div class="checkbox">
+                    <label><input name="checkData" type="checkbox" id="aa" value="Rhinite">Rhinite</label>
+                </div>
+                <div class="checkbox">
+                    <label><input name="checkData" type="checkbox" id="aa"
+                            value="Douleur dans les muscles (courbatures)">Douleur dans les muscles (courbatures)</label>
+                </div>
+                <div class="checkbox">
+                    <label><input name="checkData" type="checkbox" id="aa" value="Fatigue importante">Fatigue
+                        importante</label>
+                </div>
+                <div class="checkbox">
+                    <label><input name="checkData" type="checkbox" id="aa" value=" Maux de tête"> Maux de tête</label>
+                </div>
+                <div class="checkbox">
+                    <label><input name="checkData" type="checkbox" id="aa" value="Diarrhées">Diarrhées</label>
+                </div>
+                <div class="checkbox">
+                    <label><input name="checkData" type="checkbox" id="aa" value="Nausées et/ou Vomissements">Nausées et/ou
+                        Vomissements</label>
+                </div>
+                <div class="checkbox">
+                    <label><input name="checkData" type="checkbox" id="aa" value="Anosmie (perte de l'odorat)">Anosmie
+                        (perte de l'odorat)</label>
+                </div>
+                <div class="checkbox">
+                    <label><input name="checkData" type="checkbox" id="aa" value="Agueusie (perte du gout)">Agueusie (perte
+                        du gout)</label>
+                </div>
+            </div>
+            <input class="btn btn-primary" type="button" value="submit" onclick="saveQu(event)">
+        </form>
+    </div>
+   
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+
+
+    <script>
+        if (typeof module === "object") {
+            window.module = module;
+            module = undefined;
+        }
+    </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="../script/forms_validation.js"></script>
+    <script src="../script/patient.js"></script>
+    <script>
+        if (window.module) module = window.module;
+    </script>
+</body>
+
+
+</html>
