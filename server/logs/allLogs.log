@@ -192,3 +192,19 @@
 {"message":"search with patient cin","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/test/HH345678"}
 {"message":"Pdf created successfully","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/addresult"}
 {"message":"send Mail successfully","level":["info"],"Date":"28/1/2021 14:55:42","http":"127.0.0.1:3000/sendmail"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 17:33:55","http":"127.0.0.1:3000/test/hjhh"}
+{"message":"patient1 Created","level":["info"],"Date":"28/1/2021 17:33:55","http":"127.0.0.1:3000/add"}
+{"message":"get last id","level":["info"],"Date":"28/1/2021 17:33:55","http":"127.0.0.1:3000/lastid"}
+{"message":"New file created with patient id=  6012e92b18cced7188f9fd99","level":["info"],"Date":"28/1/2021 17:33:55","http":"127.0.0.1:3000/id"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 17:33:55","http":"127.0.0.1:3000/test/Y999999"}
+{"message":"update result","level":["info"],"Date":"28/1/2021 17:33:55","http":"127.0.0.1:3000/addresult"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 17:33:55","http":"127.0.0.1:3000/test/Y999999"}
+{"message":"Pdf created successfully","level":["info"],"Date":"28/1/2021 17:33:55","http":"127.0.0.1:3000/addresult"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 17:33:55","http":"127.0.0.1:3000/test/ Y999999"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 17:33:55","http":"127.0.0.1:3000/test/ Y9999999"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 17:33:55","http":"127.0.0.1:3000/test/ Y99999"}
+{"message":{"errors":{"firstName":{"name":"ValidatorError","message":"Path `firstName` is required.","properties":{"message":"Path `firstName` is required.","type":"required","path":"firstName","value":""},"kind":"required","path":"firstName","value":""},"lastName":{"name":"ValidatorError","message":"Path `lastName` is required.","properties":{"message":"Path `lastName` is required.","type":"required","path":"lastName","value":""},"kind":"required","path":"lastName","value":""},"cin":{"name":"ValidatorError","message":"Path `cin` is required.","properties":{"message":"Path `cin` is required.","type":"required","path":"cin","value":""},"kind":"required","path":"cin","value":""},"email":{"name":"ValidatorError","message":"Path `email` is required.","properties":{"message":"Path `email` is required.","type":"required","path":"email","value":""},"kind":"required","path":"email","value":""},"phone":{"name":"ValidatorError","message":"Path `phone` is required.","properties":{"message":"Path `phone` is required.","type":"required","path":"phone","value":""},"kind":"required","path":"phone","value":""}},"_message":"Patient validation failed","message":"Patient validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required., cin: Path `cin` is required., email: Path `email` is required., phone: Path `phone` is required."},"level":["error"],"Date":"28/1/2021 17:33:55","http":"127.0.0.1:3000/add"}
+{"message":"get last id","level":["info"],"Date":"28/1/2021 17:33:55","http":"127.0.0.1:3000/lastid"}
+{"message":"update file of 6012e92b18cced7188f9fd99","level":["info"],"Date":"28/1/2021 17:33:55","http":"127.0.0.1:3000/id"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 17:33:55","http":"127.0.0.1:3000/test/Y999999"}
+{"message":"search with patient cin","level":["info"],"Date":"28/1/2021 17:33:55","http":"127.0.0.1:3000/test/Y999999"}
