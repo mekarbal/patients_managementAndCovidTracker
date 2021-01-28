@@ -30,7 +30,7 @@ Now you will be able to test the app
 for logging as an admin you need just to enter admin as a username and for the password it's also password
 
 
-for loggging as doctor you need to enter "doctor@gmail.com " as an email and for the password it is doctor 
+for loggging as doctor you need to enter "doctor@gmail.com " as an email and for the password it is Doctor@1 
 
 
 or you can simply create a new doctor with new credentails
